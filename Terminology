@@ -4,3 +4,37 @@ This document defines canonical terms used throughout PRAXIS.
 These definitions are architectural primitives, not marketing language.
 
 Changes to this file must be deliberate.
+
+## PRAXIS
+A system implementing a General Embodiment Layer (GEL) that separates
+reasoning, authority, and execution to enable governed action across
+digital and physical environments.
+
+## General Embodiment Layer (GEL)
+A persistent, governable execution substrate that mediates between
+reasoning and action. All execution occurs through GEL.
+
+## Reasoning Model
+A language or cognitive model (e.g. LLM, SLM) that proposes intent and
+actions but does not execute them.
+
+## Agent
+A PRAXIS construct that binds a reasoning model to a persona,
+constraints, and context. Agents do not execute actions directly.
+
+## Agent Daemon
+A mediation component that brokers communication between agents and
+PRAXIS, validates intent, and enforces authority boundaries.
+The daemon does not execute actions.
+
+## Workspace
+An isolated execution context within PRAXIS containing exactly one
+active PRAXIS Cell.
+
+## PRAXIS Cell
+An exportable execution structure defining how tasks are coordinated
+under a single purpose within a workspace.
+
+## Artifact
+A tangible, versioned input or output produced by execution and tracked
+by PRAXIS.
