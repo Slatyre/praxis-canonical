@@ -1,0 +1,12 @@
+# ADR-0001: Separation of Reasoning and Execution
+
+## Decision
+Reasoning models (LLMs, SLMs) are prohibited from executing actions
+directly. All execution must occur through the General Embodiment Layer.
+
+## Rationale
+This separation is required for governance, safety, auditability, and
+model replaceability.
+
+## Status
+Accepted
