@@ -18,12 +18,12 @@ reasoning and action. All execution occurs through GEL.
 A language or cognitive model (e.g. LLM, SLM) that proposes intent and
 actions but does not execute them.
 
-## Work-form Agent
+## Work-Form Agent
 A PRAXIS construct that binds a reasoning model to a persona,
 constraints, and context. Agents do not execute actions directly.
 
 ## Agent Daemon
-A mediation component that brokers communication between Work-form agents and
+A mediation component that brokers communication between work-form gents and
 PRAXIS, validates intent, and enforces authority boundaries.
 The daemon does not execute actions.
 
