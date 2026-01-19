@@ -18,7 +18,7 @@ reasoning and action. All execution occurs through GEL.
 A language or cognitive model (e.g. LLM, SLM) that proposes intent and
 actions but does not execute them.
 
-## Agent
+## Work-form Agent
 A PRAXIS construct that binds a reasoning model to a persona,
 constraints, and context. Agents do not execute actions directly.
 
