@@ -1,0 +1,13 @@
+# General Embodiment Layer (GEL)
+
+The General Embodiment Layer is the core execution substrate of PRAXIS.
+
+All execution — digital or physical — must pass through GEL.
+
+GEL responsibilities:
+- Authority evaluation at execution time
+- Execution lifecycle management
+- Interruptibility and safe halt
+- Observability and auditability
+
+No intelligence model may execute actions directly.
